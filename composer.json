@@ -1,0 +1,23 @@
+{
+  "name": "galancev/yasdoh",
+  "description": "YaSdoh Component",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Evgeniy Galantsev",
+      "email": "galandets@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "components/yasdoh",
+          "version": "1.0.0"
+        }
+      ]
+    }
+  ]
+}
