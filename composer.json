@@ -9,15 +9,7 @@
       "email": "galandets@gmail.com"
     }
   ],
-  "repositories": [
-    {
-      "type": "package",
-      "package": [
-        {
-          "name": "galancev/yasdoh",
-          "version": "1.0.0"
-        }
-      ]
-    }
-  ]
+  "require": {
+    "php": ">=5.4.0"
+  }
 }
