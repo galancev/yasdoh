@@ -3,6 +3,7 @@
   "description": "YaSdoh Component",
   "minimum-stability": "stable",
   "license": "GPL-3.0-only",
+  "type": "library",
   "authors": [
     {
       "name": "Evgeniy Galantsev",
@@ -11,5 +12,10 @@
   ],
   "require": {
     "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Galantcev\\Components\\": ""
+    }
   }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace Components;
+namespace Galantcev\Components;
 
 /**
  * Класс для работы со сторожевой функцией для некорректного завершения скрипта
  * Class YaSdoh
- * @package Components
+ * @package Galantcev\Components
  */
 class YaSdoh
 {
