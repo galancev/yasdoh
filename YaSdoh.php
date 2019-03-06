@@ -2,6 +2,8 @@
 
 namespace Galantcev\Components;
 
+use Closure;
+
 /**
  * Класс для работы со сторожевой функцией для некорректного завершения скрипта
  * Class YaSdoh
@@ -17,7 +19,7 @@ class YaSdoh
 
     /**
      * Коллбек для отработки помирания
-     * @var \Closure
+     * @var Closure
      */
     protected $callback;
 
@@ -30,9 +32,9 @@ class YaSdoh
     }
 
     /**
-     * @param \Closure $callback
+     * @param Closure $callback
      */
-    public function setCallback($callback)
+    public function setCallback(Closure $callback)
     {
         $this->callback = $callback;
     }
